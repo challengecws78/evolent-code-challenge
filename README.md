@@ -1,3 +1,5 @@
+First clone this repo.
+
 Install the node dependencies.
 
 ```
