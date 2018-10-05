@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render EditContact 1`] = `
+<div
+  className="contact-input"
+>
+  <h1>
+    Edit Contact
+  </h1>
+  <ContactForm
+    email="chrissymizzell@gmailio.com"
+    firstName="Chrissy"
+    id="2"
+    lastName="Mizzell"
+    onSubmit={[Function]}
+    phone="5052812342"
+    title="Update Contact"
+  />
+  <button
+    className="btn-danger btn remove"
+    onClick={[Function]}
+  >
+    remove
+  </button>
+</div>
+`;

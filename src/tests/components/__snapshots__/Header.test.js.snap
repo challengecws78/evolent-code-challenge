@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`will render the ContactPage 1`] = `
+<header>
+  <h1>
+    Contact
+  </h1>
+  <nav>
+    <NavLink
+      activeClassName="is-active"
+      aria-current="page"
+      exact={true}
+      to="/"
+    >
+      Dashboard
+    </NavLink>
+    <NavLink
+      activeClassName="is-active"
+      aria-current="page"
+      to="/create"
+    >
+      Add Contact
+    </NavLink>
+  </nav>
+</header>
+`;

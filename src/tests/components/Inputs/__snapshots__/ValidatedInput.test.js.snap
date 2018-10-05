@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ValidatedInput with an empty value 1`] = `
+<div
+  className="form-group"
+>
+  <label>
+    First Name
+  </label>
+  <input
+    className="form-control"
+    name="firstName"
+    onChange={[Function]}
+    placeholder="First Name"
+    type="text"
+    value=""
+  />
+  <span
+    style={
+      Object {
+        "color": "red",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`should render with value 1`] = `
+<div
+  className="form-group"
+>
+  <label>
+    First Name
+  </label>
+  <input
+    className="form-control"
+    name="firstName"
+    onChange={[Function]}
+    placeholder="First Name"
+    type="text"
+  />
+  <span
+    style={
+      Object {
+        "color": "red",
+      }
+    }
+  />
+</div>
+`;

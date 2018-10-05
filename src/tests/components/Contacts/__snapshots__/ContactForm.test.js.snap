@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should disable button for invalid form submission 1`] = `
+<div>
+  <form
+    className="contact-form"
+    onSubmit={[Function]}
+  >
+    <ValidatedInput
+      label="First Name"
+      name="firstName"
+      onChange={[Function]}
+      placeholder="First Name"
+      type="text"
+      validate={[Function]}
+      value=""
+    />
+    <ValidatedInput
+      label="Last Name"
+      name="lastName"
+      onChange={[Function]}
+      placeholder="Last Name"
+      type="text"
+      validate={[Function]}
+      value=""
+    />
+    <ValidatedInput
+      label="Email"
+      name="email"
+      onChange={[Function]}
+      placeholder="Email"
+      type="text"
+      validate={[Function]}
+      value=""
+    />
+    <ValidatedInput
+      label="Phone"
+      name="phone"
+      onChange={[Function]}
+      placeholder="Phone"
+      type="text"
+      validate={[Function]}
+      value=""
+    />
+    <button
+      className="btn btn-primary"
+      disabled={true}
+      type="submit"
+    />
+  </form>
+</div>
+`;
+
+exports[`should render the ContactForm correctly 1`] = `
+<div>
+  <form
+    className="contact-form"
+    onSubmit={[Function]}
+  >
+    <ValidatedInput
+      label="First Name"
+      name="firstName"
+      onChange={[Function]}
+      placeholder="First Name"
+      type="text"
+      validate={[Function]}
+      value=""
+    />
+    <ValidatedInput
+      label="Last Name"
+      name="lastName"
+      onChange={[Function]}
+      placeholder="Last Name"
+      type="text"
+      validate={[Function]}
+      value=""
+    />
+    <ValidatedInput
+      label="Email"
+      name="email"
+      onChange={[Function]}
+      placeholder="Email"
+      type="text"
+      validate={[Function]}
+      value=""
+    />
+    <ValidatedInput
+      label="Phone"
+      name="phone"
+      onChange={[Function]}
+      placeholder="Phone"
+      type="text"
+      validate={[Function]}
+      value=""
+    />
+    <button
+      className="btn btn-primary"
+      disabled={true}
+      type="submit"
+    />
+  </form>
+</div>
+`;
+
+exports[`should render the ContactForm correctly with contact data 1`] = `
+<div>
+  <form
+    className="contact-form"
+    onSubmit={[Function]}
+  >
+    <ValidatedInput
+      label="First Name"
+      name="firstName"
+      onChange={[Function]}
+      placeholder="First Name"
+      type="text"
+      validate={[Function]}
+      value="Chrissy"
+    />
+    <ValidatedInput
+      label="Last Name"
+      name="lastName"
+      onChange={[Function]}
+      placeholder="Last Name"
+      type="text"
+      validate={[Function]}
+      value="Mizzell"
+    />
+    <ValidatedInput
+      label="Email"
+      name="email"
+      onChange={[Function]}
+      placeholder="Email"
+      type="text"
+      validate={[Function]}
+      value="chrissymizzell@gmailio.com"
+    />
+    <ValidatedInput
+      label="Phone"
+      name="phone"
+      onChange={[Function]}
+      placeholder="Phone"
+      type="text"
+      validate={[Function]}
+      value="5052812342"
+    />
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="submit"
+    />
+  </form>
+</div>
+`;

@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ContactFilter correctly 1`] = `
+<div
+  className="filters"
+>
+  <fieldset>
+    <h2>
+      Filters
+    </h2>
+    <div
+      className="sort"
+    >
+      <button
+        className="btn btn-primary"
+        name="sort"
+        onClick={[Function]}
+        value="asc"
+      >
+        Sort A - Z
+      </button>
+      <button
+        className="btn btn-primary"
+        name="sort"
+        onClick={[Function]}
+        value="desc"
+      >
+        Sort Z - A
+      </button>
+    </div>
+    <label>
+      Search Email
+    </label>
+    <input
+      className="form-control"
+      name="searchText"
+      onChange={[Function]}
+      type="text"
+      value=".com"
+    />
+  </fieldset>
+</div>
+`;
+
+exports[`should render ContactFilter with alt data correctly 1`] = `
+<div
+  className="filters"
+>
+  <fieldset>
+    <h2>
+      Filters
+    </h2>
+    <div
+      className="sort"
+    >
+      <button
+        className="btn btn-primary"
+        name="sort"
+        onClick={[Function]}
+        value="asc"
+      >
+        Sort A - Z
+      </button>
+      <button
+        className="btn btn-primary"
+        name="sort"
+        onClick={[Function]}
+        value="desc"
+      >
+        Sort Z - A
+      </button>
+    </div>
+    <label>
+      Search Email
+    </label>
+    <input
+      className="form-control"
+      name="searchText"
+      onChange={[Function]}
+      type="text"
+    />
+  </fieldset>
+</div>
+`;

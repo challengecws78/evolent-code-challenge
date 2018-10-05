@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`will render the ContactPage 1`] = `
+<div>
+  <Connect(ContactFilters) />
+  <Connect(ContactList) />
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`will render the ContactItem 1`] = `
+<tr>
+  <td>
+    Chrissy
+  </td>
+  <td>
+    Mizzell
+  </td>
+  <td>
+    chrissymizzell@gmailio.com
+  </td>
+  <td>
+    5052812342
+  </td>
+  <td />
+  <td>
+    <Link
+      className="btn-primary btn"
+      replace={false}
+      to="/edit/2"
+    >
+      edit
+    </Link>
+  </td>
+</tr>
+`;

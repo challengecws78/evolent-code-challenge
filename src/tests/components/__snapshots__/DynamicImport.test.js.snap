@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Will render with a component if there is a component imported 1`] = `<span />`;

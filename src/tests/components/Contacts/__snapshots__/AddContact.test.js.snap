@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AddContact component 1`] = `
+<div
+  className="contact-input"
+>
+  <h1>
+    Add Contact
+  </h1>
+  <ContactForm
+    onSubmit={[Function]}
+    title="Add Contact"
+  />
+</div>
+`;

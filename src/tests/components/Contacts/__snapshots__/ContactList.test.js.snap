@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ContactList with contacts data 1`] = `
+<div
+  className="tableContainer"
+>
+  <ContactsTable
+    contacts={
+      Array [
+        Object {
+          "email": "Abby.Vankirk@gmailio.com",
+          "firstName": "Abby",
+          "id": "1",
+          "lastName": "Vankirk",
+          "phone": "202 684-6831",
+        },
+        Object {
+          "email": "chrissymizzell@gmailio.com",
+          "firstName": "Chrissy",
+          "id": "2",
+          "lastName": "Mizzell",
+          "phone": "5052812342",
+        },
+        Object {
+          "email": "bob.mart@eggmail.com",
+          "firstName": "Bob",
+          "id": "3",
+          "lastName": "Mart",
+          "phone": "(540) 702-8058",
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`should render ContactList with empty message 1`] = `
+<div
+  className="tableContainer"
+>
+  <NoContacts />
+</div>
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`will render the ContactPage 1`] = `
+<footer>
+  © 2018
+</footer>
+`;
